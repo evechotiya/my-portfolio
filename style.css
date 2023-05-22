@@ -132,6 +132,9 @@ nav ul li a.active::after{
      font-family: 'Outfit', sans-serif
     
  }
+ div .school{
+    margin-left: 12%;
+ }
  .images{
     width: 45%;
     height: 75%;
@@ -221,11 +224,11 @@ nav ul li a.active::after{
 }
 
 .skills_bar{
-    background-color: #be8898;
+    background-color: #b5d6d5;
 }
 .skills_percentage{
     display: block;
-    background-color: #b91646;
+    background-color: #105652;
 }
 .skills_html{
     width: 90%;
@@ -414,7 +417,7 @@ hr.border3{
 .two{
    margin-top: -8%;
     margin-left: 45%;
-    margin-bottom: 15%;
+    margin-bottom: 5%;
     font-size: 60px;
     font-weight: 600;
     color: black;
@@ -855,7 +858,7 @@ hr.border3{
 .boxxl{
     width: 590px;
     height: 380px;
-    background: #e55b62;
+    background: #b91646;
     border: 3px solid black ;
     border-radius: 15px;
     margin-top: 2%;
@@ -1018,6 +1021,12 @@ nav .fa-solid{
     display: none;
 
 }
+ div .school{
+    color: #000;
+    font-size: 20.91px;
+    font-family: 'Outfit', sans-serif;
+     
+}
 
 
 
@@ -1028,6 +1037,7 @@ nav .fa-solid{
     body{
         font-size: 13px;
     }
+    
     .images {
         display: none;
     }
@@ -1046,7 +1056,7 @@ nav .fa-solid{
         font-size: 25px;
     }
     nav ul{
-        background: #b91646;
+        background: rgb(230, 187, 194);
         position: fixed;
         top: 0;
         right: -200px;
@@ -1086,6 +1096,9 @@ nav .fa-solid{
     
     .home div{
         margin-left: 15%;
+    }
+    div .school{
+        margin-left: 16%;
     }
     .about1{
         flex-basis: 80%;
@@ -1130,14 +1143,14 @@ nav .fa-solid{
     }
     .Year{
         margin-top: 30px;
-        margin-left:18% ;
+        margin-left:17% ;
         font-size: 15px;
         
        
     }
     .Year1{
         margin-top: 25px;
-        margin-left:21% ;
+        margin-left:22% ;
         font-size: 15px;
         
     
@@ -1145,7 +1158,7 @@ nav .fa-solid{
     }
     .Year2{
         margin-top: 25px;
-        margin-left:25% ;
+        margin-left:24% ;
         font-size: 15px;
         
     }
@@ -1412,7 +1425,7 @@ nav .fa-solid{
     
     }
     .img4 img{
-        width: 270px;
+        width: 168px;
         height: 185px;
         margin-top: -36%;
         margin-left: 1.5%;
@@ -1420,11 +1433,11 @@ nav .fa-solid{
         
     }
     .img5 img{
-        width: 80px;
-        height:100px;
-        margin-top: -30%;
-        margin-left: 38%;
-        margin-bottom: 1%;
+        width: 100px;
+        height:185px;
+        margin-top: -35%;
+        margin-left: 31%;
+        margin-bottom: 6%;
         
         border-radius: 15px;
     }

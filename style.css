@@ -132,7 +132,7 @@ nav ul li a.active::after{
      font-family: 'Outfit', sans-serif
     
  }
- div .school{
+ div .pb{
     margin-left: 12%;
  }
  .images{
@@ -195,23 +195,107 @@ nav ul li a.active::after{
  }
 
 .about3{
-    padding-left: 17%;
+    padding-left: 20%;
+    margin-bottom: 5%;
 }
-.skills_title{
+
+
+.skills_name{
+    width: 120px;
+    height: 60px;
+    margin-top: -2%;
+    
+}
+
+.skills_namecss{
+    width: 120px;
+    height: 60px;
+    margin-left: -7%;
+    margin-top: 0%;
+    
+    
+}
+.skill_js{
+    width: 41px;
+    margin-left: 3.5%;
+    margin-top: 2%;
+    margin-bottom: 1px;
+    
+    
+}
+.levelhtml{
+    margin-left: 20%;
+    margin-top:-7.5%;
+    
+    font-family: 'Outfit', sans-serif;
+}
+.level_css{
+    margin-left: 25%;
+    margin-top: -8%;
+    font-family: 'Outfit', sans-serif;
+}
+.js_level{
+    margin-left: 25%;
+    margin-top: -6%;
+    
+    font-family: 'Outfit', sans-serif;
+}
+
+
+.skills_bar, 
+.skills_percentage{
+    width: 300px;
+    height: 5px;
+    border-radius:.25rem ;
+
+}
+
+
+
+.skills_percentage{
+    display: block;
+    background-color: #e34e26;
+    margin-top:0.5% ;
+    margin-bottom: 0%;
+    
+    margin-left: 10%;
+}
+.skills_css{
+    display: block;
+    background-color: #3698d5;
+    margin-top:1% ;
+    margin-bottom: 0%;
+    
+    margin-left: 10%;
+}
+.skills_js{
+    display: block;
+    background-color: #fdcd00;
+    margin-top:0% ;
+    margin-bottom: 0%;
+    
+    margin-left: 10%;
+}
+
+
+/* .skills_title{
     display: flex;
     justify-content: space-between;
     margin-bottom: .5rem;
 
 
 }
+
 .skills_name{
     font-size: .938rem;
     font-weight:500;
+    
     font-family: 'Outfit', sans-serif;
     
 }
 .skills_number{
-    margin-right: 50%;
+    c
+    
     font-family: 'Outfit', sans-serif;
 }
 
@@ -231,14 +315,14 @@ nav ul li a.active::after{
     background-color: #105652;
 }
 .skills_html{
-    width: 90%;
+    width: 100%;
 }
 .skills_css{
-    width: 70%;
+    width: 100%;
 }
 .skills_js{
-    width: 10%;
-}
+    width: 100%;
+} */
 
 
 #EDUCATION{
@@ -1097,7 +1181,7 @@ nav .fa-solid{
     .home div{
         margin-left: 15%;
     }
-    div .school{
+    div .pb{
         margin-left: 16%;
     }
     .about1{
